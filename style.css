@@ -1,0 +1,12 @@
+body, h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
